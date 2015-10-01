@@ -5,3 +5,24 @@ How is the staging area different from the working directory and the repository?
 
 Staging area is the middleman before committing.  Repository contains the files and .git file.
 Provides a check point for your work.
+
+Staging :
+
+Git add "file name"
+git commit 
+
+How can you use the staging area to make sure you have one commit per logical change?
+Use git --staged. Compares the staging with the repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Use branches to create alternate versions that probably wont go into the main master file.
+
+Branches : 
+
+git branch 
+git branch 'argument'  creates a new branch 
+git checkout 'argument'  Changes which branch you are on, shows a * next to the main one.
+git log --graph --oneline master coins This will display the lines of changes on both branches.
+git checkout -b 'new branch name'
+
+How do the diagrams help you visualize the branch structure?  
